@@ -2,7 +2,7 @@
 
 ```sudo apt update && sudo apt upgrade -y
 
-<h1> Verify this </h1>
+<h1>hello</h1>
 
 ```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
