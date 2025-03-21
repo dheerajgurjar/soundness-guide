@@ -2,7 +2,7 @@
 
 ```sudo apt update && sudo apt upgrade -y
 
-         then copy this
+         *then copy this*
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
