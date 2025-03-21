@@ -2,32 +2,31 @@
 
 ```sudo apt update && sudo apt upgrade -y
 
-         *then copy this*
 
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-source $HOME/.cargo/env
+```source $HOME/.cargo/env
 
-rustc --version
+```rustc --version
 
-cargo --version
+```cargo --version
 
-echo 'source $HOME/.cargo/env' >> ~/.bashrc
+```echo 'source $HOME/.cargo/env' >> ~/.bashrc
 
-source ~/.bashrc
+```source ~/.bashrc
 
-curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash
+```curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash
 
-source ~/.bashrc
+```source ~/.bashrc
 
-soundnessup install
+```soundnessup install
 
-soundnessup update
+```soundnessup update
 
-soundness-cli generate-key --name my-key
+```soundness-cli generate-key --name my-key
 
-soundness-cli import-key --name my-key
+```soundness-cli import-key --name my-key
 
-soundness-cli list-keys
+```soundness-cli list-keys
 
-soundness-cli export-key --name my-key
+```soundness-cli export-key --name my-key
